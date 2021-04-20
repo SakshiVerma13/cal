@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <style>
+
+
+
+
+        *{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+font-style: oblique;
+}
+h1{
+    text-align: center;
+    color: #08f7fe;
+    font: size 70px;
+text-transform: uppercase;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+header{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://cdn.wallpapersafari.com/11/96/WXOAkS.png);
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.nav-area{
+    float: CENTER;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.nav-area li{
+    display:inline-block;
+    box-sizing: border-box;
+    border:2px solid red;
+}
+.nav-area li a {
+color: #fff;
+text-decoration: none;
+padding: 20px 20px;
+font-family: poppins;
+font-size: 30px;
+text-transform: uppercase;
+}
+.nav-area li a:hover{
+    background: #fff;
+    color: #333;
+}
+.logo{
+    float:none;
+}
+.logo img{
+    width: 15%;
+    height: 15%;
+    padding: 15px 5px;
+    margin-left: 42%;
+    text-align: center;
+
+   
+   
+    
+}
+/*resposive*/
+
+@media (max-width:600px){
+    .wrapper {
+width: 100%;
+}
+.logo {
+float: none;
+width: 50%;
+align-items: center;
+margin: auto;
+}
+img {
+width: 100%;
+}
+.nav-area {
+float: none;
+margin-top: 0;
+}
+    .nav-area li a {
+padding: 5px;
+font-size: 11px;
+}
+.nav-area {
+text-align: center;
+}}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    height: 100vh;
+    background: #000;
+}
+section{
+
+    height: 100vh;
+}
+span{
+    position: absolute;
+    pointer-events: none;
+    background: #fff;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: scale(0) translateY(0) rotate(0deg);
+        opacity: 0;
+    }
+    10%
+    {
+        opacity: 1;
+    }
+    90%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        transform: scale(1) translateY(-500%) rotate(360deg);
+        opacity: 0;
+    }
+}
+    </style>
+    
+</head>
+<body>
+    <section>
+    <BR>
+        <BR>
+    <header>
+        
+        <div class="wrapper">
+            <div class="logo">
+                <img src="./b.jpg"  alt="photos">
+        </div>
+        <h3>Present's</h3>
+        <h1>2021 Calendar</h1>
+        <center>
+        <ul class="nav-area">
+            <li>    <a href="M1.html">JAN</a> </li>
+            <li>    <a href="M2.html">FEB</a>  </li>
+            <li>    <a href="M3.html">MAR</a>  </li><br><br>
+            <li>    <a href="M4.html">APR</a>  </li>
+            <li>    <a href="M5.html">MAY</a>  </li>
+            <li>    <a href="M6.html">JUN</a>   </li><br><br>
+            <li>     <a href="M7.html">JUL</a>  </li>
+            <li>    <a href="M8.html">AUG</a>   </li>
+            <li>    <a href="M9.html">SEP</a>   </li><br><br>
+            <li>    <a href="M10.html">OCT</a>  </li>   
+            <li>     <a href="M11.html">NOV</a> </li>
+            <li>    <a href="M12.html">DEC</a>  </li>
+        </ul></center>
+    </div></section>
+    <script src="./script.js"></script>
+</body>
+</html>
